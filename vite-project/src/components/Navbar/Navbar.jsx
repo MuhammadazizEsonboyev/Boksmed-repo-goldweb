@@ -1,12 +1,9 @@
-import logo from "../../assets/image/logo.svg"
+import React from 'react'
 
-
-export default function Navbar() {
+const Navbar = () => {
   return (
-    <div>
-     <nav>
-        <img src={logo} alt="" className="logo" />
-     </nav>
-    </div>
+    <div>Navbar</div>
   )
 }
+
+export default Navbar

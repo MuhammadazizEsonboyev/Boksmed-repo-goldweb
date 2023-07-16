@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.Footer {
+    background: #232323;
+    margin-top: 122px;
+    padding: 55px 105px;
+}
+
+.container1 {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+}
+
+.ThreeIconBox {
+    display: flex;
+    gap: 6px;
+    margin-top: 28px;
+}
+
+.ListItems1 {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.CenterBox {
+    display: flex;
+    gap: 68px;
+    margin: 0;
+    padding: 0;
+}
+
+.List1 {
+    margin-top: 0;
+}
+
+.List1:nth-child(2) {
+    margin-top: 28px;
+}
+
+
+.List1:nth-child(3) {
+    margin-top: 28px;
+}
+
+
+.List1:nth-child(4) {
+    margin-top: 28px;
+}
+
+.TextIconBoxF {
+    display: flex;
+    gap: 6px;
+    color: #FFF;
+}
+
+.HeddingF {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.TextFend {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 33px;
+}
+
+.HeddingEn {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.TextEnd {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 28px;
+}
+
+.EndBox{
+    display: flex;
+    gap: 47px;
+}
+
+.EndEndBox{
+    width: 1200px;
+    display: flex;
+    gap: 12px;
+    justify-content: end;
+    /* margin-top: 20px; */
+}
