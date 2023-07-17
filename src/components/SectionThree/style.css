@@ -1,7 +1,11 @@
-section {
-  padding: 49px 58px;
+.threesection {
   border-radius: 45px;
   background: #fff;
+  width: 1200px;
+  margin: 0 auto;
+  border-radius: 45px;
+background: #FFF;
+padding: 49px 30px;
 }
 
 h5 {

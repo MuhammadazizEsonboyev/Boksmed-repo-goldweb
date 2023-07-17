@@ -6,7 +6,7 @@ import { SectionThreeImages, SectionThreeImages2 } from '../../utils/utils'
 export default function SectionThree() {
   return (
     <div>
-      <section>
+      <section className='threesection'>
         <h5>Бренды и заводы производители</h5>
         <div className="cards">
           {SectionThreeImages?.map(({ img }, index) => {
