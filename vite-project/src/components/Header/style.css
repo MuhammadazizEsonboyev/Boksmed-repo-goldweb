@@ -1,0 +1,64 @@
+.header {
+    width: 1200px;
+    margin: auto;
+    border-radius: 45px;
+    height: 620px;
+    flex-shrink: 0;
+    padding-left: 76px;
+    background: #fff;
+    margin-top: 53px;
+    display: flex;
+    margin-bottom: 300px;
+}
+
+.logo-header {
+    margin-top: 146px;
+}
+
+.puch {
+    color: #111;
+    font-family: Geometria;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 30px;
+}
+
+.paragraf {
+    color: #111;
+    font-family: Geometria;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 11px;
+}
+
+.btn-header {
+    background-color: #497AE2;
+    padding: 15px 38px;
+    border-radius: 10px;
+    border: none;
+    color: #EBF4FC;
+    font-family: Geometria;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.img-div{
+    display: flex;
+    margin-top: 43px;
+}
+.arrow-right{
+    margin-left: 16px;
+    margin-right: 13px;
+}
+
+
+.oil{
+    margin-left: 200px;
+    margin-top: 41px;
+}
