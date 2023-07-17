@@ -17,7 +17,6 @@
 
 .puch {
     color: #111;
-    font-family: Geometria;
     font-size: 28px;
     font-style: normal;
     font-weight: 700;
@@ -27,7 +26,6 @@
 
 .paragraf {
     color: #111;
-    font-family: Geometria;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -41,11 +39,18 @@
     border-radius: 10px;
     border: none;
     color: #EBF4FC;
-    font-family: Geometria;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    cursor: pointer;
+}
+
+.btn-header:hover{
+    background: transparent;
+    border: 1px solid #497AE2;
+    color: #497AE2;
+    transition: .4s;
 }
 
 .img-div{
@@ -55,6 +60,10 @@
 .arrow-right{
     margin-left: 16px;
     margin-right: 13px;
+    cursor: pointer;
+}
+.arrow-left{
+    cursor: pointer;
 }
 
 
