@@ -19,4 +19,12 @@ import image10 from "../assets/image/sectionthree-10.svg"
 
 
 export {image1, image2, image3, image4, image5, image6, image7, image8, image9, image10 }
-export { card1, card2, card3 }
+
+
+import img1 from "../../src/assets/image/sectionone-2.svg"
+import img2 from "../../src/assets/image/sectionone-3.svg"
+import img3 from "../../src/assets/image/sectionone-4.svg"
+import img4 from "../../src/assets/image/sectionone-5.svg"
+
+
+export { img1, img2, img3, img4 }

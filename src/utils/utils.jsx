@@ -1,46 +1,52 @@
 import { card1, card2, card3 , image1, image2, image3, image4, image5, image6, image7, image8, image9, image10} from "../assets";
+import { img1, img2, img3, img4 } from "../assets";
 
-
-
-export const SectionThreeImages = [
+export const ul_list = [
   {
-    img: image1,
+      li: "О компании",
   },
   {
-    img: image2,
+      li: "Производители ",
   },
   {
-    img: image3,
+      li: "Доставка",
   },
   {
-    img: image4,
+      li: "Оплата",
   },
   {
-    img: image5,
-  },
-]
-export const SectionThreeImages2 = [
-  {
-    img: image6,
+      // path:"/News",
+      li: "Новости",
+      // element:<News/>
   },
   {
-    img: image7,
+      li: "Реквизиты",
   },
   {
-    img: image8,
-  },
-  {
-    img: image9,
-  },
-  {
-    img: image10,
-  },
-  
+      // path:"/contact",
+      li: "Контакты",
+      // element:<Contact/>
+  }
 ]
 
-
-
-
+export const Cards = [
+  {
+      img : img1,
+      text: "РЕАНИМАЦИЯ"
+  },
+  {
+      img : img2,
+      text: "СШИВАЮЩИЕ ИНСТРУМЕНТЫ"
+  },
+  {
+      img : img3,
+      text: "МЕДИЦИНСКИЙ ИНСТРУМЕНТ"
+  },
+  {
+      img : img4,
+      text: "КИСЛОРОДНОЕ ОБОРУДОВАНИЕ"
+  }
+]
 
 export const SectionEndCardMap = [
   {
