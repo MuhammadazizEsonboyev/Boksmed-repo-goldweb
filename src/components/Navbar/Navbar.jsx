@@ -6,12 +6,10 @@ import iconka1 from '../../assets/logo/polylines 1.svg'
 import iconka2 from '../../assets/logo/shopping-cart — копия 1.svg'
 import iconka3 from '../../assets/logo/doctor — копия 4 1.svg'
 
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
-
 
 import "./style.css"
 import { ul_list } from "../../utils/utils"
+import React from "react"
 
 export default function Navbar() {
   return (
@@ -31,11 +29,11 @@ export default function Navbar() {
       </div>
       <div className="nav2">
         <ul className="list">
-          {ul_list?.map(({ li }) => {
+          {ul_list?.map(({ li }, index) => {
             return (
-              <>
+              <React.Fragment key={index}>
                 <li className="list-item">{li}</li>
-              </>
+              </React.Fragment>
             )
           })}
         </ul>
