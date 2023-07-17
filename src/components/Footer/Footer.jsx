@@ -13,11 +13,11 @@ const Footer = () => {
             <footer className="Footer">
                 <div className="container1">
                     <div className="RegihtBox">
-                        <img src={logo} alt="svg" />
+                        <img src={logo} alt="svg" className="cursor"/>
                         <div className="ThreeIconBox">
-                            <img src={Icon1} alt="svg" />
-                            <img src={Icon2} alt="svg" />
-                            <img src={Icon3} alt="svg" />
+                            <img src={Icon1} alt="svg" className="cursor"/>
+                            <img src={Icon2} alt="svg" className="cursor"/>
+                            <img src={Icon3} alt="svg" className="cursor"/>
                         </div>
                     </div>
                     <div className="CenterBox">
@@ -37,7 +37,9 @@ const Footer = () => {
                     <div className="EndBox">
                         <div className="EndBoxRigthBox">
                             <div className="TextIconBoxF">
-                                <img src={Tel} alt="svg" />
+                                <div className="nima">
+                                <img src={Tel} alt="svg" className="cursor"/>
+                                </div>
                                 <h5 className="HeddingF">Заказать обратный звонок</h5>
                             </div>
                             <p className="TextFend">Россия, Удмуртская Республика <br />
@@ -51,8 +53,8 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="EndEndBox">
-                        <img src={IconEnd1} alt="svg" />
-                        <img src={IconEnd2} alt="svg" />
+                        <img src={IconEnd1} alt="svg" className="cursor"/>
+                        <img src={IconEnd2} alt="svg" className="cursor"/>
                     </div>
                 </div>
             </footer>

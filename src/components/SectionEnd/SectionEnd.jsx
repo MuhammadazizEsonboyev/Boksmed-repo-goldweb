@@ -15,15 +15,15 @@ const SectionEnd = () => {
                             return (
                                 <React.Fragment key={index}>
                                     <div className="CardBoxEnd">
-                                        <img src={img} alt="svg" className="Card_S_end" />
+                                        <img src={img} alt="svg" className="Card_S_end cursor" />
                                         <div className="ParagrifDiv">
                                             <p className="text1">{data}</p>
                                             <p className="starDiv">
-                                                <img src={Star} alt="svg" />
-                                                <img src={Star} alt="svg" />
-                                                <img src={Star} alt="svg" />
-                                                <img src={StarWhite} alt="svg" />
-                                                <img src={StarWhite} alt="svg" />
+                                                <img src={Star} alt="svg" className="cursor"/>
+                                                <img src={Star} alt="svg" className="cursor"/>
+                                                <img src={Star} alt="svg" className="cursor"/>
+                                                <img src={StarWhite} alt="svg" className="cursor"/>
+                                                <img src={StarWhite} alt="svg" className="cursor"/>
                                             </p>
                                         </div>
                                         <h1 className="hedding2">{text}</h1>
