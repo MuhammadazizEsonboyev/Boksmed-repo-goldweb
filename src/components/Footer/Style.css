@@ -23,8 +23,18 @@
 
 .ThreeIconBox {
     display: flex;
-    gap: 6px;
+    gap: 10px;
     margin-top: 28px;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.hover:hover {
+    border-radius: 20px;
+    box-shadow: 1px 1px 50px #497ae233;
+    transform: scale(1.2);
 }
 
 .ListItems1 {
@@ -61,9 +71,9 @@
 }
 
 .TextIconBoxF {
+    height: 0;
     display: flex;
     gap: 6px;
-    color: #FFF;
 }
 
 .HeddingF {
@@ -72,6 +82,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-top: 2px;
 }
 
 .TextFend {
@@ -80,7 +91,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-top: 33px;
+    margin-top: 40px;
 }
 
 .HeddingEn {
@@ -100,12 +111,12 @@
     margin-top: 28px;
 }
 
-.EndBox{
+.EndBox {
     display: flex;
     gap: 47px;
 }
 
-.EndEndBox{
+.EndEndBox {
     width: 1200px;
     display: flex;
     gap: 12px;
