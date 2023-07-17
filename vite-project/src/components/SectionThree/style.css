@@ -31,9 +31,6 @@ section .card {
 }
 
 
-
-
-
 section .card img:hover {
   border-radius: 15px;
   background: #fff;
