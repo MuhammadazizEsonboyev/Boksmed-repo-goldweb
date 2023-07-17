@@ -6,6 +6,7 @@ import Icon3 from "../../assets/icon/whatsapp 3.svg"
 import Tel from "../../assets/icon/Tel .svg"
 import IconEnd1 from "../../assets/icon/F 1.svg"
 import IconEnd2 from "../../assets/icon/F 2.svg"
+
  
 const Footer = () => {
     

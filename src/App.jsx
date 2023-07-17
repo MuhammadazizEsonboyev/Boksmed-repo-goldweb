@@ -6,7 +6,6 @@
 
 import Home from "./components/Home/Home"
 
-// import SectionEnd from './components/SectionEnd/SectionEnd'
 function App() {
   return (
     <>
