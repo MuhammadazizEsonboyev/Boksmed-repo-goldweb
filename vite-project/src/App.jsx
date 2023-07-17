@@ -3,10 +3,13 @@
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 // import Footer from './components/Footer/Footer'
-// import SectionEnd from './components/SectionEnd/SectionEnd'
+
+import Home from "./components/Home/Home"
+
 function App() {
   return (
     <>
+    <Home/>
     </>
   )
 }
