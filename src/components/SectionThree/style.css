@@ -33,7 +33,7 @@ section .card {
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 1px 1px 10px gray;
+
   border-radius: 10px;
   margin: 5px;
   -webkit-border-radius: 10px;
@@ -59,9 +59,11 @@ section .card {
 
 
 .imagehomersection:hover {
+  box-shadow: 1px 1px 10px gray;
+  padding: 10px 15px;
   background: #fff;
   transform: scale(1.1);
-  transition: .5s;
+  transition: .5s ease-in-out;
   text-align: center;
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
