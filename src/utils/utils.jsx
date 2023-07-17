@@ -1,19 +1,46 @@
-import {
-  card1,
-  card2,
-  card3,
-  image1,
-  image2,
-  image3,
-  image4,
-  image5,
-  image6,
-  image7,
-  image8,
-  image9,
-  image10,
-} from '../assets'
-// import {image2,image3, image4, image5, image6,image7, image8,image9,image10} from "../assets";
+import { card1, card2, card3 , image1, image2, image3, image4, image5, image6, image7, image8, image9, image10} from "../assets";
+
+
+
+export const SectionThreeImages = [
+  {
+    img: image1,
+  },
+  {
+    img: image2,
+  },
+  {
+    img: image3,
+  },
+  {
+    img: image4,
+  },
+  {
+    img: image5,
+  },
+]
+export const SectionThreeImages2 = [
+  {
+    img: image6,
+  },
+  {
+    img: image7,
+  },
+  {
+    img: image8,
+  },
+  {
+    img: image9,
+  },
+  {
+    img: image10,
+  },
+  
+]
+
+
+
+
 
 export const SectionEndCardMap = [
   {
@@ -71,5 +98,3 @@ export const SectionThreeImages2 = [
   },
   
 ]
-
-

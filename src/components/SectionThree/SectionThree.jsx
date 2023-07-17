@@ -1,6 +1,8 @@
 import './style.css'
 import React from 'react'
 import { SectionThreeImages, SectionThreeImages2 } from '../../utils/utils'
+
+
 export default function SectionThree() {
   return (
     <div>
@@ -11,7 +13,7 @@ export default function SectionThree() {
             return (
               <React.Fragment key={index}>
                 <div className="card">
-                  <img src={img} alt="" />
+                  <img src={img} className='imagehomersection' alt="" />
                 </div>
                 <hr />
               </React.Fragment>
@@ -24,7 +26,7 @@ export default function SectionThree() {
             return (
               <React.Fragment key={index}>
                 <div className="card">
-                  <img src={img} alt="" />
+                  <img src={img} className='imagehomersection' alt="" />
                 </div>
                 <hr />
               </React.Fragment>
@@ -35,3 +37,4 @@ export default function SectionThree() {
     </div>
   )
 }
+
