@@ -1,0 +1,110 @@
+.h {
+    color: #111;
+    font-family: Geometria;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px;
+}
+
+.p {
+    color: #3257A4;
+    font-family: Geometria;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.asad {
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 0px 0px 3px 0px rgba(50, 87, 164, 0.25) inset;
+    width: 400px;
+
+    margin-left: 150px;
+    margin-top: 40px;
+
+}
+
+#foto {
+    margin-left: 175px;
+}
+
+.none {
+    color: #3257A4;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.xarp {
+    margin-left: 30px;
+}
+
+.hello {
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 0px 0px 3px 0px rgba(50, 87, 164, 0.25) inset;
+    width: 375px;
+    height: 150px;
+    padding: 20px;
+    padding-top: 5px;
+    padding-right: 0;
+}
+
+.m {
+    color: #111;
+    font-family: Geometria;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px;
+    padding-top: 25px;
+    margin-left: 20px;
+}
+
+
+.n {
+    margin-left: 20px;
+    color: #3257A4;
+    font-family: Geometria;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.hi {
+    margin-top: -65px;
+    margin-left: 199px;
+}
+
+.m{
+    width: 150px;
+    margin-top: -20px;
+}
+
+
+.h{
+    width: 100%;
+}
+
+.section {
+    display: flex;
+}
+
+.cards1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 34px;
+}
+
+.hello {
+    margin-top: 12px;
+    margin-left: 23px;
+    overflow: hidden;
+}

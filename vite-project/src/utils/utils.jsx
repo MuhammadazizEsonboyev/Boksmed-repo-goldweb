@@ -1,4 +1,4 @@
-import { card1, card2, card3 } from "../assets";
+import { card1, card2, card3, img1, img2, img3, img4 } from "../assets";
 
 export const SectionEndCardMap = [
     {
@@ -19,4 +19,25 @@ export const SectionEndCardMap = [
         text: "Мантуров сообщил о проверке аппаратов ИВЛ на уральском заводе",
         author: "Автор: Павел С.А"
     },
+]
+
+
+
+export const cards = [
+    {
+        img : img1,
+        text: "РЕАНИМАЦИЯ"
+    },
+    {
+        img : img2,
+        text: `СШИВАЮЩИЕ ИНСТРУМЕНТЫ`
+    },
+    {
+        img : img3,
+        text: "МЕДИЦИНСКИЙ ИНСТРУМЕНТ"
+    },
+    {
+        img : img4,
+        text: "КИСЛОРОДНОЕ ОБОРУДОВАНИЕ"
+    }
 ]
