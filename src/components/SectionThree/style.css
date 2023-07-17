@@ -27,6 +27,7 @@ section .cards {
 
 section .card {
   width: 200px;
+  height: 120px;
   background: #fff;
   display: flex;
   justify-content: center;
@@ -42,6 +43,7 @@ section .card {
 
 
 .imagehomersection{
+  width: 137px;
   transition:.5s;
   border-radius: 10px;
   -webkit-transition:.5s;
