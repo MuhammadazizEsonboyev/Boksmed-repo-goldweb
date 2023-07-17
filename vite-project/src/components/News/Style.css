@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    margin-top: 81px;
+}
+
+.new_page {
+    color: #3257A4;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.card_div {
+    margin-top: 41px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.Cards {
+    /* border: 2px solid red; */
+    width: 390px;
+    /* height: 298px; */
+    padding: 24px;
+    border-radius: 15px;
+    border: 0.2px solid #EFF5FE;
+    background: #FFF;
+    box-shadow: 0px 0px 3px 0px rgba(50, 87, 164, 0.25) inset, 0px 20px 50px 0px rgba(73, 122, 226, 0.20);
+    margin-bottom: 64px;
+}
+
+.star {
+    display: flex;
+    gap: 1.50px;
+}
+
+.text {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.text_p {
+    color: #3257A4;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Card_S {
+    border-radius: 10px;
+}
+
+.new_page2 {
+    color: #111;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    text-align: start;
+    margin-top: 13px;
+}
+
+.text_p2 {
+    display: flex;
+    margin-top: 16px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textR {
+    color: #3257A4;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.textL {
+    color: #C41C1B;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.menu {
+    color: #000;
+    font-family: Geometria;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: start;
+}
+
+.menu span {
+    color: #3257A4;
+    font-family: Geometria;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
