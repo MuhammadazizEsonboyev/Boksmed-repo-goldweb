@@ -15,9 +15,9 @@ const Footer = () => {
                     <div className="RegihtBox">
                         <img src={logo} alt="svg" className="cursor"/>
                         <div className="ThreeIconBox">
-                            <img src={Icon1} alt="svg" className="cursor"/>
-                            <img src={Icon2} alt="svg" className="cursor"/>
-                            <img src={Icon3} alt="svg" className="cursor"/>
+                            <img src={Icon1} alt="svg" className="cursor hover"/>
+                            <img src={Icon2} alt="svg" className="cursor hover"/>
+                            <img src={Icon3} alt="svg" className="cursor hover"/>
                         </div>
                     </div>
                     <div className="CenterBox">
@@ -53,8 +53,8 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="EndEndBox">
-                        <img src={IconEnd1} alt="svg" className="cursor"/>
-                        <img src={IconEnd2} alt="svg" className="cursor"/>
+                        <img src={IconEnd1} alt="svg" className="cursor hover"/>
+                        <img src={IconEnd2} alt="svg" className="cursor hover"/>
                     </div>
                 </div>
             </footer>

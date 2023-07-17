@@ -23,12 +23,18 @@
 
 .ThreeIconBox {
     display: flex;
-    gap: 6px;
+    gap: 10px;
     margin-top: 28px;
 }
 
-.cursor{
+.cursor {
     cursor: pointer;
+}
+
+.hover:hover {
+    border-radius: 20px;
+    box-shadow: 1px 1px 50px #497ae233;
+    transform: scale(1.2);
 }
 
 .ListItems1 {
@@ -105,12 +111,12 @@
     margin-top: 28px;
 }
 
-.EndBox{
+.EndBox {
     display: flex;
     gap: 47px;
 }
 
-.EndEndBox{
+.EndEndBox {
     width: 1200px;
     display: flex;
     gap: 12px;
