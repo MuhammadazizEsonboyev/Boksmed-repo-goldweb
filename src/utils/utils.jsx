@@ -2,34 +2,42 @@ import { card1, card2, card3 , image1, image2, image3, image4, image5, image6, i
 
 
 
-
-export const ul_list = [
-    {
-        li: "О компании",
-    },
-    {
-        li: "Производители ",
-    },
-    {
-        li: "Доставка",
-    },
-    {
-        li: "Оплата",
-    },
-    {
-        // path:"/News",
-        li: "Новости",
-        // element:<News/>
-    },
-    {
-        li: "Реквизиты",
-    },
-    {
-        // path:"/contact",
-        li: "Контакты",
-        // element:<Contact/>
-    }
+export const SectionThreeImages = [
+  {
+    img: image1,
+  },
+  {
+    img: image2,
+  },
+  {
+    img: image3,
+  },
+  {
+    img: image4,
+  },
+  {
+    img: image5,
+  },
 ]
+export const SectionThreeImages2 = [
+  {
+    img: image6,
+  },
+  {
+    img: image7,
+  },
+  {
+    img: image8,
+  },
+  {
+    img: image9,
+  },
+  {
+    img: image10,
+  },
+  
+]
+
 
 
 
