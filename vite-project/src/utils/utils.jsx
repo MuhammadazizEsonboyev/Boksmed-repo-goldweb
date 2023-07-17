@@ -52,6 +52,8 @@ export const SectionThreeImages = [
   {
     img: image5,
   },
+]
+export const SectionThreeImages2 = [
   {
     img: image6,
   },
@@ -67,7 +69,6 @@ export const SectionThreeImages = [
   {
     img: image10,
   },
+  
 ]
 
-
-console.log(SectionThreeImages);
