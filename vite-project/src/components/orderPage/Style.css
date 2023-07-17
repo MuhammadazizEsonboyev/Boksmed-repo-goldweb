@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.CardH {
+    width: 1020px;
+    border-radius: 15px;
+    border: 1px solid #E5E5E5;
+    background: #F7F9FB;
+    box-shadow: 0px 10px 30px 0px rgba(73, 122, 226, 0.10);
+    padding: 31px 105px;
+    position: relative;
+}
+
+.containerH {
+    width: 1200px;
+    margin: auto;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.TextImageDivH {
+    display: flex;
+    /* gap: 57px; */
+    justify-content: space-between;
+}
+
+.heddingH1 {
+    color: #3257A4;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.textH1 {
+    margin-top: 18px;
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.hr {
+    position: absolute;
+    width: 1020px;
+    margin-left: -105px;
+    color: #497AE2;
+    /* box-shadow: 0px 0px 10px #3257A4; */
+    margin-top: 18px;
+}
+
+.InpH1 {
+    width: 390px;
+    height: 63px;
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 0px 0px 3px 0px rgba(50, 87, 164, 0.25) inset;
+    padding: 20px 27px;
+    border: 0;
+    outline: 0;
+}
+
+.InpDivH {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+
+.InpH2 {
+    width: 390px;
+    border: 0;
+    outline: 0;
+}
+
+.InpDivhh {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+.InpH1::placeholder {
+    color: #111;
+}
+
+.inph3 {
+    width: 809px;
+    border: 0;
+    outline: 0;
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 0px 0px 3px 0px rgba(50, 87, 164, 0.25) inset;
+    margin-top: 21px;
+    padding: 18px 27px 65px;
+}
+
+.Btnh1 {
+    background: #3257A4;
+    color: #EBF4FC;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: 0;
+    outline: 0;
+    padding: 13px 65px;
+    border-radius: 10px;
+    margin-top: 41px;
+}
+
+.textHend {
+    color: #111;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 18px;
+    letter-spacing: 0.80px;
+}

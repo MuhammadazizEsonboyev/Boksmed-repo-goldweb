@@ -1,5 +1,4 @@
 import "../SectionEnd/Style.css"
-import Card1 from "../../assets/image/Sendimage1.svg"
 import Star from "../../assets/image/YulduzchaSariq.svg"
 import StarWhite from "../../assets/image/yulduzchaOq.svg"
 import { SectionEndCardMap } from "../../utils/utils.jsx"
